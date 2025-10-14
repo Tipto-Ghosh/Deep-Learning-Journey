@@ -1,0 +1,50 @@
+# Core
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+joblib
+tqdm
+
+# ML
+scikit-learn
+mlxtend
+xgboost
+lightgbm
+catboost
+statsmodels
+sympy
+
+# Deep Learning / frameworks
+tensorflow==2.20.0      # modern TF with Python 3.11 support (CPU/GPU wheels available)
+# For PyTorch, use the official install command (see instructions below); we include names so pip can try CPU wheels:
+torch
+torchvision
+torchaudio
+
+# Visualization & notebooks
+plotly
+notebook
+jupyterlab
+ipykernel
+tensorboard
+
+# Data & images
+opencv-python
+pillow
+h5py
+
+# Deployment & APIs
+flask
+fastapi
+uvicorn
+
+# Explanation/interpretability/etc.
+shap
+
+# Extras (optional)
+black
+isort
+flake8
+pre-commit
