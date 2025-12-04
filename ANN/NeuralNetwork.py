@@ -119,7 +119,7 @@ class NeuralNetwork:
         grads = {} # store the gradients of all weights and biases for all layers.
         L = len(self.layers) - 1 # Last layer index.
         
-        # Step-1: compute dA for last year from loss derivative for batch size m
+        # Step-1: compute dA for last layer from loss derivative for batch size m
         # dJ/dA^(L) = - 2/m * (Y - A^(L)) or - 2/m * (Y - Y_hat)
         Y_hat = cache[f'A{L}'] # last layer's activation value
         
